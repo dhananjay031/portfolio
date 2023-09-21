@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'League Spartan';
+  background-color: rgb(32, 37, 43);
+  width: auto;
+}
+
+.header{
+  border: 1px solid red;
+  padding: 20px;
+  display: flex;
+  width: auto;
+  justify-content: space-between;
+}
+
+.codeLogo{
+  color: rgb(32, 211, 145);
+  font-size: 60px;
+}
+
+.buttons{
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  gap: 20px;
+  font-size: 25.5px;
+  font-weight: 900;
+  color: rgb(131, 131, 131);
+}
+
+.buttons span:hover{
+   color: #ffffff;
+   transition: all 0.7s ease;
+   cursor: pointer;
+}
+
+.me{
+  color: aliceblue;
+  border: 2px solid blueviolet;
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+}
+
+.introContainer{
+  max-width: 400px;
+}
+
+.imgContainer{
+  width: 300px;
+  height: 300px !important;
+  border-radius: 50%;
+}
+
+.title{
+  font-weight: bolder;
+  font-size: 32px;
+}
+
+/* rgb(32, 211, 145) */
+
+.subTitle{
+  color: rgb(32, 211, 145);
+  font-size: 25px;
+}
+
+.info{
+  color: rgb(131, 131, 131);
+  font-size: 20px;
+  font-weight: 800;
+  margin-top: 20px;
+}
+
+
+.chatButton{
+  margin-top: 20px;
+  border:rgb(32, 211, 145) 5px solid;
+  color: rgb(32, 211, 145);
+  max-width: 150px;
+  font-size: 22px;
+  font-weight:600;
+  padding: 8px;
+  border-radius: 14px;
+  cursor: pointer;
+}
+
+.chatButton:hover{
+  background-color: rgb(32, 211, 145);
+  color: #ffffff;
+  transition: all 1s ease;
+}
